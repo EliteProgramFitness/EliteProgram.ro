@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" /> 
+  <img 
+  <title>EliteProgram — Programe de antrenament online</title>
+  <meta name="description" content="EliteProgram — programe de antrenament online, consultanță individuală, ghiduri de nutriție și antrenament (gratuite și cu plată)." />
+  <style>
+    :root{--bg:#06120a;--accent:#52e23a;--muted:#bfc8c2;--card:#0b1a14}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#fff;background:linear-gradient(90deg,#05100a 30%, rgba(6,18,10,0.9) 70%)}
+    header{display:flex;align-items:center;gap:20px;padding:28px 6%;background:transparent}
+    header img{height:78px}
+    .brand{font-weight:800;letter-spacing:1px;font-size:28px}
+    .hero{display:flex;align-items:center;gap:40px;padding:40px 6%;min-height:380px}
+    .hero-left{flex:1}
+    .hero h1{font-size:48px;margin:0 0 12px;color:#fff}
+    .hero p{color:var(--muted);margin:0 0 18px;max-width:680px}
+    .cta{display:inline-block;background:var(--accent);color:#05210a;padding:12px 20px;border-radius:10px;font-weight:700;text-decoration:none}
+    .section{padding:48px 6%}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.04)}
+    h2{margin:0 0 12px}
+    ul{margin:8px 0 0;padding-left:18px;color:var(--muted)}
+    .program-type{font-weight:700;color:var(--accent);margin-bottom:6px}
+    footer{padding:28px 6%;border-top:1px solid rgba(255,255,255,0.04);display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between}
+    .contact{color:var(--muted)}
+    .link{color:var(--accent);text-decoration:none}
+    .badge{display:inline-block;background:#0f2b16;padding:6px 10px;border-radius:999px;font-weight:700}
+    .features{display:flex;flex-direction:column;gap:12px}
+    .columns{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    @media(max-width:800px){.hero{flex-direction:column;text-align:center}.columns{grid-template-columns:1fr}}
+    .download{display:inline-block;margin-top:12px;padding:10px 14px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--muted);text-decoration:none}
+  </style>
+</head>
+<body>
+  <header>
+    <img src="noul-logo.jpg" alt="EliteProgram logo"/>
+    <div class="brand">ELITEPROGRAM</div>
+    <div style="margin-left:auto;display:flex;gap:12px;align-items:center">
+      <a class="link" href="#programe">Programe</a>
+      <a class="link" href="#ghiduri">Ghiduri</a>
+      <a class="link" href="#despre">Despre</a>
+      <a class="link" href="#contact">Contact</a>
+      <span class="badge">Online & Individual</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-left">
+        <h1>Programe de antrenament inteligente pentru orice sportiv</h1>
+        <p>EliteProgram oferă programe online structurate pe obiective — forță, hipertrofie, rezistență, agilitate, recuperare sau pregătire specifică sportului tău. Opțiuni gratuite, ghiduri avansate și consultanță individuală.</p>
+        <a class="cta" href="#programe">Vezi programe</a>
+        <a class="link" href="mailto:adrianadrianolteanu4@gmail.com?subject=Vreau%20ghidul%20gratuit" style="margin-left:12px">Trimite email pentru ghid gratuit</a>
+      </div>
+      <div style="flex:1;display:flex;align-items:center;justify-content:center">
+        <img src="noul-logo.jpg" alt="Logo mare" style="max-width:320px;opacity:0.98;filter:drop-shadow(0 8px 18px rgba(0,0,0,0.6))"/>
+      </div>
+    </section>
+
+    <section id="programe" class="section">
+      <h2>Tipuri de programe</h2>
+      <div class="grid">
+        <div class="card">
+          <div class="program-type">Programe online structurate</div>
+          <div>Programe pe 4/8/12 săptămâni, adaptate pe nivel: începător, intermediar, avansat. Planuri cu demonstrații video, progresii și fișe de antrenament.</div>
+          <div style="margin-top:12px;color:var(--muted)">Exemplu: 12 săptămâni forță + mobilitate — cu evaluare inițială și plan de progres.</div>
+        </div>
+
+        <div class="card">
+          <div class="program-type">Consultanță individuală</div>
+          <div>Analiză video, plan personalizat, sesiuni live (online) și suport prin chat. Potrivite pentru sportivi care vor programe foarte specifice și ajustări în timp real.</div>
+          <div style="margin-top:12px;color:var(--muted)">Tarife și pachete se pot discuta în funcție de frecvență.</div>
+        </div>
+
+        <div class="card">
+          <div class="program-type">Ghiduri avansate (gratuite & cu plată)</div>
+          <div>Ghiduri complete: programare pe perioade, perioadizare, nutriție sportivă, recuperare și suplimentare inteligentă.</div>
+          <div style="margin-top:12px;color:var(--muted)">Partea de bază este gratuită; versiunile avansate includ planuri și șabloane gata de folosit.</div>
+        </div>
+
+        <div class="card">
+          <div class="program-type">Programe pentru sporturi specifice</div>
+          <div>Fie că joci fotbal, handbal, alergare, ciclism sau practici sporturi de forță, primesti planuri adaptate rolului tău (fundaș, mijlocaș, atacant etc.).</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ghiduri" class="section">
+      <h2>Ghid gratuit: Nutriție & Antrenament</h2>
+      <div class="columns">
+        <div class="card">
+          <h3>Ce găsești în ghid</h3>
+          <ul>
+            <li>Structura unei săptămâni ideale de antrenament (exemplu pentru forță & rezistență)</li>
+            <li>Baze de nutriție: macro, timing, hidratare</li>
+            <li>Suplimente utile — când și de ce (în termeni simpli)</li>
+            <li>Model de plan gratuit de 4 săptămâni</li>
+          </ul>
+          <p style="margin-top:12px;color:var(--muted)">Pentru a primi ghidul gratuit, trimite un email la <a class="link" href="mailto:adrianadrianolteanu4@gmail.com?subject=Vreau%20ghidul%20gratuit">adrianadrianolteanu4@gmail.com</a> cu mesajul „Vreau ghidul gratuit”.</p>
+        </div>
+        <div class="card">
+          <h3>Ghiduri avansate (plată)</h3>
+          <div style="color:var(--muted)">Programe detaliate pentru competiții, planificare anuală, reabilitare post-accident și programe individuale pentru sportivi de performanță.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="despre" class="section">
+      <h2>Despre EliteProgram</h2>
+      <div style="display:flex;align-items:center;gap:24px;flex-wrap:wrap">
+        <img src="noul-logo.jpg" alt="Logo EliteProgram" style="max-width:200px;border-radius:12px"/>
+        <p style="max-width:600px;color:var(--muted)">
+          EliteProgram a luat naștere din dorința de a aduce antrenamente eficiente și personalizate pentru fiecare sportiv, indiferent de nivel. 
+          Misiunea noastră este să combinăm știința sportivă cu experiența practică pentru a ajuta sportivii să-și atingă obiectivele, să prevină accidentările și să evolueze constant.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Prezentarea ideilor de antrenament online</h2>
+      <div class="grid">
+        <div class="card">
+          <strong>Evaluare inițială</strong>
+          <div style="color:var(--muted)">Chestionar, probe video și teste simple pe care le faci acasă sau la sală.</div>
+        </div>
+        <div class="card">
+          <strong>Planificare pe obiective</strong>
+          <div style="color:var(--muted)">Împărțim ciclul în blocuri de pregătire: acumulare, intensificare, competiție / test.</div>
+        </div>
+        <div class="card">
+          <strong>Progresie și feedback</strong>
+          <div style="color:var(--muted)">Progresie săptămânală cu ajustări pe baza feedback-ului și rezultatelor.</div>
+        </div>
+        <div class="card">
+          <strong>Componenta educațională</strong>
+          <div style="color:var(--muted)">Video scurt explicativ pentru fiecare exercițiu, tipuri de greșeli frecvente și soluții.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Structura programelor după nevoie</h2>
+      <div class="grid">
+        <div class="card"><strong>Începători</strong><div style="color:var(--muted)">Bazele tehnicii, adaptare la volum, obișnuință cu antrenamentul.</div></div>
+        <div class="card"><strong>Intermediari</strong><div style="color:var(--muted)">Creștere controlată a volumului și intensității, introducerea microciclurilor.</div></div>
+        <div class="card"><strong>Performanță</strong><div style="color:var(--muted)">Pregătire specifică competițiilor, perioadizare și optimizare.</div></div>
+        <div class="card"><strong>Reabilitare & Recuperare</strong><div style="color:var(--muted)">Plan progresiv, colaborare cu fizioterapeut dacă este nevoie.</div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Contactează-ne</h3>
+          <p class="contact">Telefon: <a class="link" href="tel:+40742658284">0742658284</a><br>Email: <a class="link" href="mailto:adrianadrianolteanu4@gmail.com">adrianadrianolteanu4@gmail.com</a></p>
+          <p style="color:var(--muted)">Programări și evaluări inițiale disponibile online. Menționează numele și obiectivul tău pentru o ofertă personalizată.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>© <strong>EliteProgram</strong> — Toate drepturile rezervate.</div>
+    <div style="color:var(--muted)">Telefon: <a class="link" href="tel:+40742658284">0742658284</a> • Email: <a class="link" href="mailto:adrianadrianolteanu4@gmail.com">adrianadrianolteanu4@gmail.com</a></div>
+  </footer>
+
+</body>
+</html>
